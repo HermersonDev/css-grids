@@ -5,7 +5,6 @@
 	padding: 0;
 }
 
-Você deve utilizar sempre a class "col" para o elemente se torna um coluna, mas para específicar 
 [class*="col"]{
 	height: 20px;
 	float: left;

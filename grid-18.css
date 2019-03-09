@@ -1,0 +1,98 @@
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+Você deve utilizar sempre a class "col" para o elemente se torna um coluna, mas para específicar 
+[class*="col"]{
+	height: 20px;
+	float: left;
+	border:1px solid green;
+	padding: 5px;
+}
+
+.container{
+	width: 100%;
+	margin: 0 auto;
+}
+
+.row:after{
+	content: "";
+	clear: both;
+	display: table;
+}
+
+
+@media only screen and (max-width: 600px) {
+	.s-1{width: 50%;}
+	.s-2{width: 100%;}
+} 
+
+@media only screen and (min-width: 600px) {
+	.s-1{width: 50%;}
+	.s-2{width: 100%;}
+} 
+
+@media only screen and (min-width: 768px) {
+	.m-1{width:16.66%;}
+	.m-2{width:33.32%;}
+	.m-3{width:49.98%;}
+	.m-4{width:66.64%;}
+	.m-5{width:83.3%;}
+	.m-6{width:99.96%;}
+
+	.off-m-1{margin-left:16.66%;}
+	.off-m-2{margin-left:33.32%;}
+	.off-m-3{margin-left:49.98%;}
+	.off-m-4{margin-left:66.64%;}
+	.off-m-5{margin-left:83.3%;}
+	.off-m-6{margin-left:99.96%;}
+}
+
+
+
+
+@media only screen and (min-width: 992px) {
+	
+	.l-1{width:5.55%;}
+	.l-2{width: 11.1%;}
+	.l-3{width:16.65%;}
+	.l-4{width:22.2%;}
+	.l-5{width:27.75%;}
+	.l-6{width:33.3%;}
+	.l-7{width:38.85%;}
+	.l-8{width:44.4%;}
+	.l-9{width:49.95%;}
+	.l-10{width:55.5%;}
+	.l-11{width:61.05%;}
+	.l-12{width:66.6%;}
+	.l-13{width:72.15%;}
+	.l-14{width:77.7%;}
+	.l-15{width:83.25%;}
+	.l-16{width:88.8%;}
+	.l-17{width:94.35%;}
+	.l-18{width:99.9%;}
+
+	.off-l-1{margin-left:5.55%;}
+	.off-l-2{margin-left:11.1%;}
+	.off-l-3{margin-left:16.65%;}
+	.off-l-4{margin-left:22.2%;}
+	.off-l-5{margin-left:27.75%;}
+	.off-l-6{margin-left:33.3%;}
+	.off-l-7{margin-left:38.85%;}
+	.off-l-8{margin-left:44.4%;}
+	.off-l-9{margin-left:49.95%;}
+	.off-l-10{margin-left:55.5%;}
+	.off-l-11{margin-left:61.05%;}
+	.off-l-12{margin-left:66.6%;}
+	.off-l-13{margin-left:72.15%;}
+	.off-l-14{margin-left:77.7%;}
+	.off-l-15{margin-left:83.25%;}
+	.off-l-16{margin-left:88.8%;}
+	.off-l-17{margin-left:94.35%;}
+	.off-l-18{margin-left:99.9%;}
+
+	.container{width: 80%;}
+} 

@@ -1,1 +1,1 @@
-Futuramente colocarei um descrição completa de cada grid ! :P
+Futuramente colocarei uma descrição completa de cada grid ! :P

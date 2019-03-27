@@ -28,7 +28,7 @@ Para definir um container:
 </div>
 
 ```
-> Da mesma maneira que os outros grids, sempre deve ter um div com class "row" antes das colunas.
+> Da mesma maneira que os outros grids, sempre deve ter uma div com class "row" antes das colunas.
 
 ## Colunas
 
@@ -109,7 +109,7 @@ O **código** ficaria assim:
 
 > _Esse tópico ainda não foi adicionado..._
 
-> _Os grids ainda estão em desenvolvimento, se você tiver alguma sujestão ou conheci outros tipos de grid css, por favor, mande uma mensagem para este endereço de email ne.hermerson@gmail.com :p
+> Os grids ainda estão em desenvolvimento, se você tiver alguma sujestão ou conheci outros tipos de grid css, por favor, mande uma mensagem para este endereço de email ne.hermerson@gmail.com :p
 
 
 

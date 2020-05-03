@@ -4,11 +4,6 @@
 
 _Esse é um grid básico que foi desenvolvido baseado em 18 colunas, 6 colunas e 2 colunas._
 
-Eu sei...
-> Um grid de 18 colunas!?
-
-Mas para dispositivos com telas grande é excelente, trust me !
-
 ## Container
 
 Para definir um container:
